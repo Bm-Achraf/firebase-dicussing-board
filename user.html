@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Topic</title>
+    <link rel="stylesheet" href="./style/user.css">
+</head>
+<body>
+
+    <header>
+        <h1>Add Topic</h1>
+    </header>
+
+    <section class="topic-section">
+        <div class="topic-form">
+            <h2>Create a New Topic</h2>
+            <form id="AddTopicForm">
+                <label for="topicName">Name:</label>
+                <input type="text" id="topicName" name="name" required>
+
+                <label for="topicPassword">Password:</label>
+                <input type="password" id="topicPassword" name="password" required>
+
+                <label for="topicTitle">Topic Title:</label>
+                <input type="text" id="topicTitle" name="title" required>
+
+                <label for="topicContent">Topic Content:</label>
+                <textarea id="topicContent" name="content" rows="4" required></textarea>
+
+                <button type="submit">Add Topic</button>
+            </form>
+        </div>
+    </section>
+
+
+    <script type="module" src="./script/user.js"></script>
+
+</body>
+</html>

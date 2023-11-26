@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="./style/Discussion.css">
+</head>
+<body>
+    <section>
+        <article class="discussion">
+            <h2 id="title"></h2>
+            <p id="author"></p>
+            <p id="content"></p>
+
+            <div class="comment-section">
+                <h2>Add a Comment</h2>
+                <form id="AddCommentForm">
+                    <label for="commentAuthor">Your Name:</label>
+                    <input type="text" id="commentAuthor" class="name" name="name" required>
+
+                    <label for="commentAuthor">Your Password:</label>
+                    <input type="password" id="commentAuthor" class="password" name="password" required>
+    
+                    <label for="commentContent">Your Comment:</label>
+                    <textarea id="commentContent" name="comment" rows="4" required></textarea>
+    
+                    <button type="submit">Add Comment</button>
+                </form>
+            </div>
+            
+            <div id="comments">
+                <h3>Comments:</h3>
+                
+            </div>
+        </article>
+
+        <!-- Add more discussion articles here -->
+
+    </section>
+
+    <script type="module" src="./script/Discussion.js"></script>
+
+</body>
+</html>
+
+<!--<div class="comment">
+                    <p class="author">Comment by Jane Smith</p>
+                    <p class="content">I faced the same problem. Try resetting your password; it worked for me.</p>
+                </div>-->

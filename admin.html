@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="./style/admin.css">
+</head>
+<body>
+
+    <header>
+        <h1>Admin Panel</h1>
+    </header>
+
+    <section class="admin-section">
+        <div class="user-management">
+            <h2>User Management</h2>
+            <form id="AddUserForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="email">Password:</label>
+                <input type="password" id="password" required>
+
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+    </section>
+
+    <script type="module" src="./script/admin.js"></script>
+
+</body>
+</html>
