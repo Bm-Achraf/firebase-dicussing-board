@@ -1,3 +1,3 @@
 # firebase-dicussing-board
-# I am impressed by how ChatGPT can almost do all the job here.
+# I was impressed by how ChatGPT could almost do all the job here.
 ### This app was made with vanilla JS
